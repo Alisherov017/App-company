@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Kross sneakers",
+      "price": 120,
+      "image": "https://example.com/kross-sneakers.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Running shoes",
+      "price": 100,
+      "image": "https://example.com/running-shoes.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Casual shoes",
+      "price": 80,
+      "image": "https://example.com/casual-shoes.jpg"
+    }
+  ]
+}
