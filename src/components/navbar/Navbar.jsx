@@ -4,6 +4,7 @@ import heart from "../../img/heart.svg";
 import profile from "../../img/profile.svg";
 import basket from "../../img/basket.svg";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -17,22 +18,24 @@ const Navbar = () => {
             <h2 className="header__text-title">Kross Store</h2>
             <p className="header__text-descr">Магазин лучших кроссовок</p>
           </div>
-          <div class="header__menu menu">
-            <nav class="menu__body">
-              <ul class="menu__list">
-                <li class="menu__item price">
-                  <div className="menu__item-icons">
-                    <img src={basket} alt="" />
-                  </div>
-                  1205 руб.
-                </li>
-                <li class="menu__item">
+          <div className="header__menu menu">
+            <nav className="menu__body">
+              <ul className="menu__list">
+                <Link to="/favorite">
+                  <li className="menu__item price">
+                    <div className="menu__item-icons">
+                      <img src={basket} alt="" />
+                    </div>
+                    1205 руб.
+                  </li>
+                </Link>
+                <li className="menu__item">
                   <div className="menu__item-icons">
                     <img src={heart} alt="" />
                   </div>
                   Закладки
                 </li>
-                <li class="menu__item">
+                <li className="menu__item">
                   <div className="menu__item-icons">
                     <img src={profile} alt="" />
                   </div>
