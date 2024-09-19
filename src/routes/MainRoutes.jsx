@@ -8,9 +8,6 @@ export const router = createBrowserRouter([
     // errorElement: <Error />,
     children: [
       // { path: "/", element: <Login /> },
-      // { path: "/start", element: <Start /> },
-      // { path: "/tell", element: <TellSection /> },
-      // { path: "/bubble", element: <Bubble /> },
     ],
   },
 ]);
